@@ -1,0 +1,31 @@
+
+import os
+from smbus import SMBus
+
+addr = 10
+bus = SMBus(1)
+
+def writeData(value):
+	byteValue = StringToBytes(value)
+	print(byteValue)
+	i2cflag = bus.write_i2c_block_data(addr, 0x53, byteValue)
+	return i2cflag
+	
+def StringToBytes(val):
+	retVal=[]
+	for c in val:
+		retVal.append(ord(c))
+	return retVal
+	
+def shutdown():
+	os.system("sudo shutdown - h now")
+	
+while True:
+	input_val = input("Enter the sleep time (max 7 digits):")
+	if len(input_val) > 7:
+		printf("Data over size")
+	else:
+	    print("Sleep time: ", input_val)
+		i2cresponse = writeData(input_val)
+		if i2cresponse == None:
+			shutdown()
