@@ -5,8 +5,8 @@
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f15245-system-power-supply-control-module-mplab-mcc",
         "version": " ",
-        "displayName": "",
-        "projectName": "pic16f15245-system-power-supply-control-module-mplab-mcc",
+        "displayName": "System Power Supply Control Module using PIC16F15245 Microcontroller",
+        "projectName": "pic16f15245-supply-control-module-firmware-mplab-mcc",
         "shortDescription": "This code example demonstrates a supply control module implementation which controls power supply to a system through voltage regulator using the PIC MCU Compatible PIC16F152xx family of MCUs are PIC16F15214 PIC16F15223 PIC16F15254 PIC16F15276",
         "ide": {
             "name": "MPLAB X",
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.9.163"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.1.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,8 @@
             }
         },
         "author": "Usha G",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": ["I2C", "UART", "TMR", "WDT"],
+        "keywords": ["Power Management", "Power Saving"],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
