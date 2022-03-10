@@ -7,13 +7,13 @@
 
 This code example demonstrates system power supply control for the Raspberry Pi based application using PIC16F15245 Control board. For more details refer section 6 “Appendix: System Power Supply Control for the Raspberry Pi Application” of application note “Using PIC16F15244 Microcontrollers for System Power Supply Control”, which provides implementation and demonstration details based on Raspberry pi board.
 
-For PIC16F15244 Curiosity Nano kit based implementation, refer “Supply Control Module using PIC16F15244 Microcontroller” and “Process Computer Module using PIC16F15244 Microcontroller” GitHub code examples. 
+For PIC16F15244 Curiosity Nano kit based implementation, refer [System Power Supply Control Module Emulation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-cnano-system-power-supply-control-module-mplab-mcc) and [Process Computer Module Emulation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-cnano-system-power-supply-control-sbc-mplab-mcc) GitHub code examples. 
 
 ## Related Documentation
 
 - [Application note : Using PIC16F15244 Microcontrollers for System Power Supply Control]( https://www.microchip.com/DS00004121)
-- [GitHub Microchip PIC Examples : Supply Control Module using PIC16F15244 Microcontroller]
-- [GitHub Microchip PIC Examples : Process Computer Module using PIC16F15244 Microcontroller]
+- [GitHub Microchip PIC Examples : System Power Supply Control Module Emulation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-cnano-system-power-supply-control-module-mplab-mcc)
+- [GitHub Microchip PIC Examples : Process Computer Module Emulation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-cnano-system-power-supply-control-sbc-mplab-mcc)
 - [PIC16F15244 Product Family Page](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic16f15244)
 - [PIC16F15244 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=pic16f15244&type=&language=&sort=)
 - [PIC16F15244 MCU Family Video](https://www.youtube.com/watch?v=nHLv3Th-o-s)
@@ -29,11 +29,11 @@ In this demonstration, PIC16F15245 control board is referred as supply control m
 
 ## Software Used
 
-- [MPLAB® X IDE 6.00 or newer](http://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC8 2.36 or a newer compiler](http://www.microchip.com/mplab/compilers)
+- [MPLAB® X IDE 6.0.0 or newer](http://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® XC8 2.36.0 or a newer compiler](http://www.microchip.com/mplab/compilers)
 - [MPLAB® Code Configurator (MCC) 5.1.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
 - MCC Melody Core 2.1.9
-- Timer0 (TMR0) MCC Melody driver v4.0.8
+- Timer0 (TMR0) MCC Melody driver 4.0.8
 
 
 ## Hardware Used
