@@ -14,8 +14,8 @@ For PIC16F15244 Curiosity Nano kit based implementation, refer [System Power Sup
 - [Application note : Using PIC16F15244 Microcontrollers for System Power Supply Control]( https://www.microchip.com/DS00004121)
 - [GitHub Microchip PIC Examples : System Power Supply Control Module Emulation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-cnano-system-power-supply-control-module-mplab-mcc)
 - [GitHub Microchip PIC Examples : Process Computer Module Emulation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-cnano-system-power-supply-control-sbc-mplab-mcc)
-- [PIC16F15244 Product Family Page](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic16f15244)
-- [PIC16F15244 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=pic16f15244&type=&language=&sort=)
+- [PIC16F152xx Product Family Page](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic16f15244)
+- [PIC16F152xx Family Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=pic16f15244&type=&language=&sort=)
 - [PIC16F15244 MCU Family Video](https://www.youtube.com/watch?v=nHLv3Th-o-s)
 - [PIC16F15244 MCU Product Page](https://www.microchip.com/en-us/product/PIC16F15244)
 
@@ -29,9 +29,10 @@ In this demonstration, PIC16F15245 control board is referred as supply control m
 
 ## Software Used
 
-- [MPLAB® X IDE 6.0.0 or newer](http://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC8 2.36.0 or a newer compiler](http://www.microchip.com/mplab/compilers)
-- [MPLAB® Code Configurator (MCC) 5.1.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB® X IDE [6.0.0 or newer](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 [2.36.0 or newer](http://www.microchip.com/mplab/compilers)
+- MPLAB® Code Configurator (MCC) [5.1.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
+- Microchip PIC16F1xxxx_DFP Device Support [1.9.163 or newer](https://packs.download.microchip.com)
 - MCC Melody Core 2.1.9
 - Timer0 (TMR0) MCC Melody driver 4.0.8
 
